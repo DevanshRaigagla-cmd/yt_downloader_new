@@ -1,6 +1,7 @@
 document.getElementById('downloadForm').onsubmit = async function(e) {
     e.preventDefault();
 
+    
     const url = document.getElementById('youtube_url').value;
     const format = document.getElementById('format').value;
     const quality = document.getElementById('quality').value;
